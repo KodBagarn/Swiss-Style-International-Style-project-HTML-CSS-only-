@@ -1,0 +1,18 @@
+span {
+  font-size: 150%;
+}
+
+h2 {
+  color: red;
+  max-width: 200px;
+}
+
+div {
+  max-width: 200px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+p{
+  margin-bottom: 30px;
+}
