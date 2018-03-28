@@ -1,18 +1,99 @@
-span {
+* {
+  font-family: Montserrat, sans-serif;
+}
+
+body {
+  width: 42%;
+  margin: 0 auto;
+  background: white;
+}
+
+
+
+.middle {
+  margin: 0 auto;
+  width: 96%;
+  float: left;
+  height: 1030px;
+  padding: 2%;
+  background-color: #ededed;
+  /* border: solid 1px #000; */
+
+}
+
+.textbox {
+  margin-top: 0;
+  max-width: 180px;
+  height: auto;
+  float: right;
+  padding:20px;
+}
+
+.text{
+  margin-top: 0;
+  box-sizing: border-box;
+  float: left;
+  text-align: left;
+  max-width: 180px;
+  margin-bottom: 0px;
+}
+
+.textbox:nth-child(3n +1) {
+  padding-top: 0;
+  clear: right;
+}
+
+.OhContainer {
+  margin: auto;
+  /* left: 50% - hälften av din bredd */
+}
+
+h2  {
+  font-size: 1000%;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+#One {
+  max-width: 1114.730px;
+  color: rgba(255,0,0,0.7);
+  background-color: rgba(0,60,255,0.7);
+}
+
+#Two {
+
+margin-top: -235px;
+color: rgba(0,0,255,0.55);
+background-color: rgba(210,255,0,0.7);
+margin-bottom: 40px;
+}
+
+#blacksabbath {
+  padding-top: 20px;
+  padding-left: 20px;
   font-size: 150%;
 }
 
-h2 {
-  color: red;
-  max-width: 200px;
-}
 
-div {
-  max-width: 200px;
-  margin-bottom: 20px;
+/* .left {
+  box-sizing: border-box;
+  padding: 100px;
+  background-color: #000;
+  color: #fff;
+  width: 30%;
+  float:left;
+  height: 1200px;
+} */
+/* .right {
+  box-sizing: border-box;
+  padding: 100px;
+  background-color: #000;
+  color: #fff;
+  width: 30%;
   float: left;
-}
+  height: 1200px;
+} */
 
-p{
-  margin-bottom: 30px;
-}
+/* h2 bredd 1114.730
+  höjd 195px */
